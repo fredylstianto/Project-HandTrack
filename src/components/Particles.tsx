@@ -221,11 +221,11 @@ export const Particles = () => {
         />
       </bufferGeometry>
       <pointsMaterial
-        size={0.15}
+        size={0.03}
         vertexColors
         sizeAttenuation
         transparent
-        opacity={0.8}
+        opacity={0.5}
         blending={THREE.AdditiveBlending}
         depthWrite={false}
       />
