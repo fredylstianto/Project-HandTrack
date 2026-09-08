@@ -19,7 +19,7 @@ const getTextPoints = (text: string, count: number) => {
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   
   ctx.fillStyle = 'white';
-  ctx.font = 'bold 80px Arial';
+  ctx.font = '80px Arial';
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
   ctx.fillText(text, canvas.width / 2, canvas.height / 2);
@@ -221,11 +221,11 @@ export const Particles = () => {
         />
       </bufferGeometry>
       <pointsMaterial
-        size={0.03}
+        size={0.1}
         vertexColors
         sizeAttenuation
         transparent
-        opacity={0.5}
+        opacity={0.8}
         blending={THREE.AdditiveBlending}
         depthWrite={false}
       />
