@@ -65,7 +65,7 @@ const getPatternPositions = (type: PatternType, count: number) => {
   const positions = new Float32Array(count * 3);
   
   if (type === 'text') {
-    return getTextPoints("HAI NIKII CANTIK", count);
+    return getTextPoints("HAII NIKII CANTIKKK", count);
   }
 
   for (let i = 0; i < count; i++) {
